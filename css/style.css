@@ -23,6 +23,29 @@ img {
   transform: rotate(5.4deg);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  /* border: 1px solid red; */
+}
+h1 {
+  font-size: 102px;
+}
+.active-time {
+  font-size: 80px;
+}
+.button-container {
+  /* border: 1px solid red; */
+  width: 520px;
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: rgba(167, 170, 172, 100%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(154, 158, 161);
 }
