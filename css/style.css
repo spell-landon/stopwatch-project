@@ -19,10 +19,10 @@ body {
 img {
   max-width: 1300px;
   position: fixed;
-  z-index: -2;
+  z-index: -1;
 }
 .page {
-  background-image: url('./assets/paper.jpg');
+  background-image: url('/assets/paper-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 9px;
