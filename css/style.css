@@ -18,10 +18,11 @@ body {
 }
 img {
   max-width: 1300px;
-  position: absolute;
-  z-index: -1;
+  position: fixed;
+  z-index: -2;
 }
 .page {
+  z-index: -1;
   background-image: url('/assets/paper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
