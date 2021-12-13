@@ -1,9 +1,9 @@
 //*---------------------------------------*/
 //*-------------- constants --------------*/
 //*---------------------------------------*/
-let minutes = 00;
-let seconds = 00;
-let tens = 00;
+let minutes = 0;
+let seconds = 0;
+let tens = 0;
 
 let Interval;
 
