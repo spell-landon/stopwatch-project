@@ -9,4 +9,20 @@ body {
 }
 img {
   max-width: 1300px;
+  position: absolute;
+  z-index: -1;
+}
+.page {
+  background-image: url('/paper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 9px;
+  margin-left: 26px;
+  height: 670px;
+  width: 520px;
+  transform: rotate(5.4deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
