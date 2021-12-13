@@ -23,7 +23,7 @@ img {
 }
 .page {
   z-index: -1;
-  background-image: url('/assets/paper.jpg');
+  background-image: url('./assets/paper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 9px;
