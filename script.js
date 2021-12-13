@@ -10,10 +10,11 @@ let Interval;
 //*---------------------------------------*/
 //*------ cached element references ------*/
 //*---------------------------------------*/
+// time references
 const pageTens = document.querySelector('#tens');
 const pageSeconds = document.querySelector('#seconds');
 const pageMinutes = document.querySelector('#minutes');
-
+// button references
 const startBtn = document.querySelector('#start-btn');
 const stopBtn = document.querySelector('#stop-btn');
 const resetBtn = document.querySelector('#reset-btn');
@@ -53,6 +54,11 @@ function startTimer() {
     pageMinutes.textContent = '0' + minutes;
     seconds = 0;
     pageSeconds.textContent = '0' + 0;
+  }
+  if (minutes > 59) {
+    pageTens.textContent = '0' + tens;
+    pageSeconds.textContent = '0' + 0;
+    pageMinutes.textContent = '0' + 0;
   }
 }
 function resetTimer() {
